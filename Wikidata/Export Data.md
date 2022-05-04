@@ -3,7 +3,7 @@
 #### Durch das Wikidata Query Service ist es den angemeldeten Nutzern möglich, durch die Datenbanksprache __SQL__ gewünschten Informationen zu downloaden und so unser Informationsbedarf zu decken.  Durch die SQL Abfrage erhalten wir eine CSV Datei mit den gewünschten Informationen.
 
 
-#Scholderer
+# SQL Scholderer  <br />
 SELECT ?item ?itemLabel 
 WHERE 
 {
@@ -15,7 +15,7 @@ WHERE
 ?item wdt:P136 wd:Q170571 .
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". } # <span lang="en" dir="ltr" class="mw-content-ltr">Helps get the label in your language, if not, then en language</span>
 
-#Fatin
+# SQL Fatin  <br />
 SELECT ?item ?itemLabel 
 WHERE 
 {

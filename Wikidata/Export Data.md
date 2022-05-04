@@ -14,6 +14,7 @@ WHERE <br />
 ?item wdt:P20 wd:Q1794 . <br />
 ?item wdt:P136 wd:Q170571 . <br />
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". } # <span lang="en" dir="ltr" class="mw-content-ltr">Helps get the label in your <br /> language, if not, then en language</span> <br />
+  }
 
 #### SQL Abfrage Fatin  <br />
 SELECT ?item ?itemLabel <br />

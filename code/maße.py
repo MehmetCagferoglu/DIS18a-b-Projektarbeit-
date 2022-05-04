@@ -1,6 +1,6 @@
 import re
 
-with open(r"index_of_works", "r",encoding='utf-8') as a:
+with open(r"C:\Users\janni\OneDrive\Uni\Förstner\DIS18a-b-Projektarbeit-\data\index_of_works_v1.4", "r",encoding='utf-8') as a:
      RawText = a.read()
 
 Maße = re.findall('>([^>]*?cm)<|>0<', RawText)

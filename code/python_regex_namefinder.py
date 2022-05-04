@@ -1,5 +1,5 @@
 import re
-with open(r"C:\Users\FurkanPC\OneDrive - TH Köln\Förstner\Foerstner.txt", "r",encoding='utf-8') as a:
+with open(r"C:\Users\janni\OneDrive\Uni\Förstner\DIS18a-b-Projektarbeit-\data\index_of_works_v", "r",encoding='utf-8') as a:
      RawText = a.read()
 
 Deutsch = []

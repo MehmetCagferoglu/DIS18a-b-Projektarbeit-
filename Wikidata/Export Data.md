@@ -1,6 +1,6 @@
 
 ### Wikidata Query Service
-Durch das Wikidata Query Service ist es den angemeldeten Nutzern möglich, durch die Datenbanksprache __SQL__ gewünschten Informationen zu downloaden und so unser Informationsbedarf zu decken. 
+Durch das Wikidata Query Service ist es den angemeldeten Nutzern möglich, durch die Datenbanksprache __SQL__ gewünschten Informationen zu downloaden und so unser Informationsbedarf zu decken.  Durch die SQL Abfrage erhalten wir eine CSV Datei mit den gewünschten Informationen.
 
 
 #Scholderer
@@ -26,3 +26,4 @@ WHERE
 
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". } # <span lang="en" dir="ltr" class="mw-content-ltr">Helps get the label in your language, if not, then en language</span>
 }
+

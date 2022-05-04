@@ -6,7 +6,7 @@
 ### 30.01.2022
 - Gemeinsame Erstellung Prozessdiagramm.
 
-![image](https://user-images.githubusercontent.com/98899587/166686400-e3a935f6-dfbe-46af-b88f-a99310f20efb.png =250x250)
+<img src="https://user-images.githubusercontent.com/98899587/166688257-5c53ee4d-9006-4961-915f-489e5b0b57c0.png" width="400" height="300" />
 
 ### 20.04.2022
 - Wikidata Query Service erlenen (Tutorials anschauen/Paper lesen)

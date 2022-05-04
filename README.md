@@ -9,7 +9,8 @@ In this repository you will find
 - Weekly
 
 
-###The team members are:
+
+## The team members are:
 - Furkan Erdogan (Furkan.Erdogan@smail.th-koeln.de)
 - Markus Hardtke (Markus.Hardtke@smail.th-koeln.de)
 - Jannik Loose (Jannik.Loose@smail.th-koeln.de)

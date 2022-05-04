@@ -6,12 +6,21 @@
 ### 30.01.2022
 - Gemeinsame Erstellung Prozessdiagramm.
 
-
-### 17.04.2022
+### 20.04.2022
 - Wikidata Query Service erlenen (Tutorials anschauen/Paper lesen)
 
-### 24.04.2022
+### 27.04.2022
 - Wikdata Query Service erlenen um die gewünschten Datein zu exportieren.
 
+### 04.05.2022
+- Erstellung der Github Repo
+- Inhalt Repo besprechen
+- Ordner erstellen
+- Datein ordnen
+
+### 11.04.2022
+- Datein in Repo pushen
+- Weekly nachtragen/fortführen
+- Repo erweitern mit dem Code
 
 

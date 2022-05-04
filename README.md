@@ -5,8 +5,7 @@ In this repository you will find
 
 - Used data
 - Code
-- Our 
 - Graph Expansion
-- Weeklys
+- Weekly
 
 The team members are:

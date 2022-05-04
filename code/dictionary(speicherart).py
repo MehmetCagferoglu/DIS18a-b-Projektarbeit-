@@ -46,17 +46,27 @@ for x in range(len(Autor)):
     if len(width[x]) > 0 and len(height[x]) > 0: 
         Dict[y]["dimentions"] = {"width" : width[x],
                                  "height" : height[x]}  
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+"""        
 #current_location      
     if len(titel_de[x]) < 3:
         Dict[y]["current_location"] =  current_location[x]     
 
 
-
-
-
-
-
-"""
 Dict = {
         "ID" : {  1: {
                     "Autor" : 2,

@@ -17,4 +17,4 @@ In this repository you will find
 - David Martini (David.Martini@smail.th-koeln.de)
 
 
-## Bei Fragen bitte an die oben genannten Email Adressen melden! Vielen Dank!
+### Bei Fragen bitte an die oben genannten Email Adressen melden! Vielen Dank!

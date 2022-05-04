@@ -1,6 +1,6 @@
 
 ### Wikidata Query Service
-##### Durch das Wikidata Query Service ist es den angemeldeten Nutzern möglich, durch die Datenbanksprache __SQL__ gewünschten Informationen zu downloaden und so unser Informationsbedarf zu decken.  Durch die SQL Abfrage erhalten wir eine CSV Datei mit den gewünschten Informationen.
+#### Durch das Wikidata Query Service ist es den angemeldeten Nutzern möglich, durch die Datenbanksprache __SQL__ gewünschten Informationen zu downloaden und so unser Informationsbedarf zu decken.  Durch die SQL Abfrage erhalten wir eine CSV Datei mit den gewünschten Informationen.
 
 
 #Scholderer

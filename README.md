@@ -8,6 +8,10 @@ In this repository you will find
 - Graph Expansion
 - Weekly
 
-The team members are:
+
+###The team members are:
+- Furkan Erdogan (Furkan.Erdogan@smail.th-koeln.de)
+- Markus Hardtke (Markus.Hardtke@smail.th-koeln.de)
+- 
 
 

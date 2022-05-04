@@ -14,12 +14,12 @@
 
 ### 04.05.2022
 - Erstellung der Github Repo
-- Inhalt Repo besprechen
-- Ordner erstellen
-- Datein ordnen
+- Repo Inhalt besprechen
+- Rep Ordner erstellen
+- Repo Datein ordnen
 
 ### 11.04.2022
-- Datein in Repo pushen
+- Repo Datein pushen
 - Weekly nachtragen/fortführen
 - Repo erweitern mit dem Code
 

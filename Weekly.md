@@ -6,7 +6,7 @@
 **[Projektbeschreibung.pdf](https://github.com/MehmetCagferoglu/DIS18a-b-Projektarbeit-/files/8630413/Projektbeschreibung.pdf)**
 
 ### 30.01.2022
-- Gemeinsame Erstellung Prozessdiagramm.
+- Gemeinsame Erstellung des Prozessdiagramms.
 
 <img src="https://user-images.githubusercontent.com/98899587/166688257-5c53ee4d-9006-4961-915f-489e5b0b57c0.png" width="400" height="300" />
 

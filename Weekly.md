@@ -1,7 +1,9 @@
-# Bis Februar 2022 wurde das Projekt geplant und gemeinsame Termine festgelegt.
+# Bis Februar 2022 wurde das Projekt geplant und die gemeinsamen Termine festgelegt.w
 
 ### 15.12.2021
 - Gemeinsame Erstellung Projektbeschreibung.
+
+[Forstner.pdf](https://github.com/MehmetCagferoglu/DIS18a-b-Projektarbeit-/files/8630404/Forstner.pdf)
 
 ### 30.01.2022
 - Gemeinsame Erstellung Prozessdiagramm.

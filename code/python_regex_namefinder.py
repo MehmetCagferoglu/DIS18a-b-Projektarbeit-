@@ -1,30 +1,34 @@
 import re
-with open(r"C:\Users\janni\OneDrive\Uni\Förstner\DIS18a-b-Projektarbeit-\data\index_of_works_v", "r",encoding='utf-8') as a:
+with open(r"C:\Users\FurkanPC\Documents\GitHub\DIS18a-b-Projektarbeit-\data\index_of_works_v1-5", "r",encoding='utf-8') as a:
      RawText = a.read()
+     
+# Es werden leere Listen f�r die jeweiligen Sprachen definiert.
 
 Deutsch = []
-Franzözisch = []
+Franzoesisch = []
 Englisch = []
+
+# Mit diesem Regex-Befehl suchen wir die Namen heraus unterteilt in drei verschiedenen Sprachkriterien
 
 Name = re.findall('name">([^"]*?)<',RawText)
 a = re.compile(r'\(')
 b = re.compile(r'\/')
 
-# Englisch, Deutsch und Franzözisch
+# Englisch, Deutsch und Franzoesisch
 
 for x in range(len(Name)):
    # if b.search(Name[x]):
    #     print(Name[x])
 
-# Franzözisch
+# Franzoesisch
 
     if not a.search(Name[x]) and not b.search(Name[x]):
         Deutsch.append(Name[x])
     
-# Deutsch und Franzözisch        
+# Deutsch und Franzoesisch        
 
     if a.search(Name[x]) and not b.search(Name[x]):
-         Franzözisch.append(str(re.findall('\(.*?\)', Name[x])[-1]))
+         Franzoesisch.append(str(re.findall('\(.*?\)', Name[x])[-1]))
       
       
       

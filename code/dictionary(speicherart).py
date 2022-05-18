@@ -1,3 +1,5 @@
+# Es werden Listen erstellt für die einzelnen Kategorien. Sind Platzhalter
+
 Autor = ["Otto Scholderer","Henri Fantin-Latour","Henri Fantin-Latour"]
 titel_de = ["Kopie nach Ferdinand Bol, Bildnis eines jungen Herren", "Mona Lisa",""]
 titel_fr = ["copie d'après Ferdinand Bol, portrait d'un jeune homme", "","baguette"]
@@ -8,7 +10,11 @@ height = ["80cm","","10cm"]
 current_location = ["Städelsches Kunstinstitut", "Frankfurt-am-Main","","Pari"]
 
 
-            
+# Das Script befasst sich mit den WikiData Daten.
+# Die Daten werden anhand organisierter Kategorien strukturiert.
+# Ein Dictionary wurde erstellt, um die json Daten zu organisieren.
+
+           
 Dict = {}
 
 

@@ -23,7 +23,6 @@ Fehlende Zentimeter (cm):
 17701
 17740
 ----------------------------------------
-Namenänderung für Regexanpassung:
+Namenänderung für Regexanpassung
 17467
 17612
-

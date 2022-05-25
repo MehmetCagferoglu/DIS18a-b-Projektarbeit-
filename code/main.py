@@ -33,22 +33,15 @@ for x in range(len(Name)):
     if a.search(Name[x]) and b.search(Name[x]):
         en =  re.findall('.*\/',Name[x])
         for y in en:
-            titel_en.append(y[:-2])
+            titel_en.append(y[:-3])
         de =  re.findall('\/.*\/|\/.*\(',Name[x])
         for y in de:
             titel_de.append(y[2:-2])
         fr =  re.findall('\(.*?\)',Name[x])
         for y in fr:
-<<<<<<< HEAD
             titel_fr.append(y[2:-2])
       
 # Funktion nur für das französische Titel (titel_fr)
-=======
-            titel_fr.append(y[1:-1])
-        
-# titel_fr
-
->>>>>>> 88f9e7bcffb192296147e4bdbedc918eee175e03
     if not a.search(Name[x]) and not b.search(Name[x]):
         titel_fr.append(Name[x])
         titel_en.append("")
@@ -59,20 +52,9 @@ for x in range(len(Name)):
          titel_fr.append(str(re.findall('\(.*?\)', Name[x])[-1])[1:-1])
          titel_de.append(str(re.findall('.*\(', Name[x])[-1])[:-2])
          titel_en.append("")
-<<<<<<< HEAD
 
        
 # Maße (Länge und Breite) und die Funktion dafür     
-=======
-    
-         
-
-
-    
-    
-#Maße   
-    
->>>>>>> 88f9e7bcffb192296147e4bdbedc918eee175e03
 Maße = re.findall('>([^>]*?cm)<|>0<', RawText)
 länge  = []
 breite = []
@@ -94,7 +76,6 @@ Release = re.findall('dateCreated">([^"]*?)<',RawText)
 # Speicherung in einem Dictionary
 Dict = {}
 
-n = ""
 
 for x in range(len(Creator)):
     y = x + 1 
@@ -109,20 +90,15 @@ for x in range(len(Creator)):
     if len(titel_de[x]) > 3:
         Dict[y]["titel"]["titel_de"] = titel_de[x]
     if len(titel_de[x]) < 3:
-<<<<<<< HEAD
             Dict[y]["titel"]["titel_de"] = titel_fr[x]
 # Französischer Titel
-=======
-        Dict[y]["titel"]["titel_de"] = titel_fr[x]
-#Französicher Titel
->>>>>>> 88f9e7bcffb192296147e4bdbedc918eee175e03
     if len(titel_fr[x]) > 3:
         Dict[y]["titel"]["titel_fr"] = titel_fr[x]
     if len(titel_fr[x]) < 3:
         Dict[y]["titel"]["titel_fr"] = titel_de[x]         
 # Englischer Titel
     if len(titel_en[x]) > 3:
-        Dict[y]["titel"]["titel_en"] = titel_en[x] 
+       Dict[y]["titel"]["titel_en"] = titel_en[x] 
     if len(titel_en[x]) < 3:
         if Creator[x] == "Henri Fantin-Latour":
             Dict[y]["titel"]["titel_en"] = titel_fr[x] 
@@ -134,5 +110,6 @@ for x in range(len(Creator)):
     Dict[y]["Maße"] = Maße[x]
 
 
-    
+
+        
 

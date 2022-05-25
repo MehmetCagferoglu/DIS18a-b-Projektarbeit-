@@ -22,7 +22,11 @@ titel_de = []
 titel_fr = []
 titel_en = []
 
+# Eine Liste, die alle Titeln heraussucht
+
 Name = re.findall('name">([^"]*?)<',RawText)
+
+# 
 a = re.compile(r'\(')
 b = re.compile(r'\/')
 
@@ -40,7 +44,7 @@ for x in range(len(Name)):
         fr =  re.findall('\(.*?\)',Name[x])
         for y in fr:
             titel_fr.append(y[2:-2])
-        
+      
 # titel_fr
 
     if not a.search(Name[x]) and not b.search(Name[x]):
@@ -54,7 +58,8 @@ for x in range(len(Name)):
          titel_fr.append(str(re.findall('\(.*?\)', Name[x])[-1])[1:-1])
          titel_de.append(str(re.findall('.*\(', Name[x])[-1])[:-2])
          titel_en.append("")
-        
+'''
+       
 #Maße   
     
 Maße = re.findall('>([^>]*?cm)<|>0<', RawText)

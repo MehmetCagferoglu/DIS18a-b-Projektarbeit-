@@ -1,4 +1,4 @@
-
+# Importieren wichtiger Libraries
 import re
 from pathlib import Path
 cwd = Path(__file__).resolve().parent.parent
@@ -6,8 +6,7 @@ cwd = Path(__file__).resolve().parent.parent
 with open(str(cwd)+"\data/index_of_works_v1-5", "r",encoding='utf-8') as a:
      RawText = a.read()
 
-# ERsteller
-
+# Ersteller der Werke
 Creator = re.findall('creator">([^"]*?)<',RawText) 
 
 for x in range(len(Creator)):
@@ -16,23 +15,20 @@ for x in range(len(Creator)):
     else:
         Creator[x] = "Otto Scholderer"
 
-#Titel
-
+# Titel in verschiedenen Sprachen
 titel_de = []
 titel_fr = []
 titel_en = []
 
 # Eine Liste, die alle Titeln heraussucht
-
 Name = re.findall('name">([^"]*?)<',RawText)
 
-# 
+# Definition von a und b mit Regex. Für a = "\(" und für b = "\/"
 a = re.compile(r'\(')
 b = re.compile(r'\/')
 
 
-# titel all
-
+# Funktion für alle Titeln (titel all)
 for x in range(len(Name)):
     if a.search(Name[x]) and b.search(Name[x]):
         en =  re.findall('.*\/',Name[x])
@@ -45,23 +41,20 @@ for x in range(len(Name)):
         for y in fr:
             titel_fr.append(y[2:-2])
       
-# titel_fr
-
+# Funktion nur für das französische Titel (titel_fr)
     if not a.search(Name[x]) and not b.search(Name[x]):
         titel_fr.append(Name[x])
         titel_en.append("")
         titel_de.append("")
     
-# titel_de und titel_fr         
-
+# Funktion für das französische und deutsche Titel (titel_de und titel_fr)         
     if a.search(Name[x]) and not b.search(Name[x]):
          titel_fr.append(str(re.findall('\(.*?\)', Name[x])[-1])[1:-1])
          titel_de.append(str(re.findall('.*\(', Name[x])[-1])[:-2])
          titel_en.append("")
-'''
+
        
-#Maße   
-    
+# Maße (Länge und Breite) und die Funktion dafür     
 Maße = re.findall('>([^>]*?cm)<|>0<', RawText)
 länge  = []
 breite = []
@@ -77,34 +70,33 @@ for x in range(len(Maße)):
         breite.append("")
 
 
-#Ersteluings jahr
+# Erstellungsjahr
 Release = re.findall('dateCreated">([^"]*?)<',RawText)
    
-#Speicehrung
-
+# Speicherung in einem Dictionary
 Dict = {}
 
 
 for x in range(len(Creator)):
     y = x + 1 
-#Creator    
+# Funktion des Erstellers (Creator)   
     Dict[y] = {     "Creator" : Creator[x],
                     "titel" : {"titel_de" : "null",
                                "titel_de" : "null",
                                "titel_en" : "null"
                                             }
               }      
-#titel_de Titel   
+# Deutscher Titel   
     if len(titel_de[x]) > 3:
         Dict[y]["titel"]["titel_de"] = titel_de[x]
     if len(titel_de[x]) < 3:
             Dict[y]["titel"]["titel_de"] = titel_fr[x]
-#Französicher Titel
+# Französischer Titel
     if len(titel_fr[x]) > 3:
         Dict[y]["titel"]["titel_fr"] = titel_fr[x]
     if len(titel_fr[x]) < 3:
         Dict[y]["titel"]["titel_fr"] = titel_de[x]         
-#englsicher Titel
+# Englischer Titel
     if len(titel_en[x]) > 3:
        Dict[y]["titel"]["titel_en"] = titel_en[x] 
     if len(titel_en[x]) < 3:
@@ -112,10 +104,9 @@ for x in range(len(Creator)):
             Dict[y]["titel"]["titel_en"] = titel_fr[x] 
         if Creator[x] == "Otto Scholderer":
             Dict[y]["titel"]["titel_en"] = titel_de[x]    
-#Release           
-
+# Release           
     Dict[y]["Release"] = Release[x]
-#Maße   
+# Maße   
     Dict[y]["Maße"] = Maße[x]
 
 

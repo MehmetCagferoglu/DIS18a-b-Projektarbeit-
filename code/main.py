@@ -22,7 +22,11 @@ titel_de = []
 titel_fr = []
 titel_en = []
 
+# Eine Liste, die alle Titeln heraussucht
+
 Name = re.findall('name">([^"]*?)<',RawText)
+
+# 
 a = re.compile(r'\(')
 b = re.compile(r'\/')
 

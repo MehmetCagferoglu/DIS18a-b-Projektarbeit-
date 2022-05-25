@@ -102,12 +102,12 @@ for x in range(len(Creator)):
     if len(titel_en[x]) < 3:
         if Creator[x] == "Henri Fantin-Latour":
             Dict[y]["titel"]["titel_en"] = titel_fr[x] 
-        else :
-            Dict[y]["titel"]["titel_en"] = titel_de[x]
+            if  titel_fr[x] == "":
+                Dict[y]["titel"]["titel_en"] = titel_de[x]
         if Creator[x] == "Otto Scholderer":
             Dict[y]["titel"]["titel_en"] = titel_de[x]
-        else: 
-            Dict[y]["titel"]["titel_en"] = titel_fr[x]
+            if  titel_de[x] == "":
+                Dict[y]["titel"]["titel_en"] = titel_fr[x]
 # Release           
     Dict[y]["Release"] = Release[x]
 # Maße   

@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 cwd = Path(__file__).resolve().parent.parent
 
-with open(str(cwd)+"\data/index_of_works_v1-5", "r",encoding='utf-8') as a:
+with open(str(cwd)+"\data/index_of_works_v1-6", "r",encoding='utf-8') as a:
      RawText = a.read()
 
 # Ersteller der Werke
@@ -102,14 +102,20 @@ for x in range(len(Creator)):
     if len(titel_en[x]) < 3:
         if Creator[x] == "Henri Fantin-Latour":
             Dict[y]["titel"]["titel_en"] = titel_fr[x] 
+        else :
+            Dict[y]["titel"]["titel_en"] = titel_de[x]
         if Creator[x] == "Otto Scholderer":
-            Dict[y]["titel"]["titel_en"] = titel_de[x]    
+            Dict[y]["titel"]["titel_en"] = titel_de[x]
+        else: 
+            Dict[y]["titel"]["titel_en"] = titel_fr[x]
 # Release           
     Dict[y]["Release"] = Release[x]
 # Maße   
     Dict[y]["Maße"] = Maße[x]
-
-
-
+    
+    
+j = ""
+for x in range(1,368):
+    j = j + str(Dict[x]["titel"]) + "\n"
         
 

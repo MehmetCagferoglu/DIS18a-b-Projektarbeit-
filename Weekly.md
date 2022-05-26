@@ -1,4 +1,4 @@
-# Bis Februar 2022 wurde das Projekt geplant und die gemeinsamen Termine festgelegt.w
+# Bis Februar 2022 wurde das Projekt geplant und die gemeinsamen Termine festgelegt.
 
 ### 15.12.2021
 - Gemeinsame Erstellung der Projektbeschreibung.

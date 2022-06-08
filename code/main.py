@@ -5,7 +5,7 @@ import json
 
 cwd = Path(__file__).resolve().parent.parent
 
-with open(str(cwd)+"\data/index_of_works_v1-6", "r",encoding='utf-8') as a:
+with open(str(cwd)+"\data/index_of_works_v1-7", "r",encoding='utf-8') as a:
      RawText = a.read()
 
 # Ersteller der Werke
@@ -114,15 +114,16 @@ for x in range(len(Creator)):
     Dict[y]["Release"] = Release[x]
 # Maße   
     Dict[y]["Maße"] = Maße[x]
-    
-with open("Data.json", "w") as outfile:
+
+cwd2 = Path(__file__).resolve().parent.parent    
+with open(str(cwd2) + "\data\Data.json", "w") as outfile:
     json.dump(Dict, outfile)
 
 
-
+"""
     
 j = ""
 for x in range(1,368):
     j = j + str(Dict[x]["titel"]) + "\n"
         
-
+"""

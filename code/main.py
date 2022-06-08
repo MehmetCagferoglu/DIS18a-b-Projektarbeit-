@@ -1,6 +1,8 @@
 # Importieren wichtiger Libraries
 import re
 from pathlib import Path
+import json 
+
 cwd = Path(__file__).resolve().parent.parent
 
 with open(str(cwd)+"\data/index_of_works_v1-6", "r",encoding='utf-8') as a:
@@ -113,6 +115,11 @@ for x in range(len(Creator)):
 # Maße   
     Dict[y]["Maße"] = Maße[x]
     
+with open("Data.json", "w") as outfile:
+    json.dump(Dict, outfile)
+
+
+
     
 j = ""
 for x in range(1,368):

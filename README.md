@@ -138,3 +138,52 @@
 - Rep Ordner erstellen
 
 
+### 11.05.2022
+
+- Repo Datein pushen
+
+- Weekly nachtragen/fortführen
+
+- Repo erweitern mit dem Code
+
+- **Code erweitert** / Fehler entdeckt und entfernt V1.2
+
+
+
+### 18.05.2022
+
+- Frei!
+
+
+
+### 25.05.2022
+
+- Daten von Wikidate mit den von uns vorhandenen Daten vergleichen!
+
+- **Code erweitert** / Fehler entdeckt und entfernt V1.3
+
+- Informiert, wie wir unseren neuen Datensatz auf Wikidata hochladen können.
+
+
+
+### 01.06.2022
+
+- First  Try upload Wikidata 
+
+- Informiert, wie wir unseren neuen Datensatz auf Wikidata hochladen können.
+
+
+
+
+
+
+
+### 08.06.2022
+
+- ** GO LIVE!**
+
+
+
+
+
+

@@ -113,7 +113,7 @@
 
 - Wikidata Query Service erlenen (Tutorials anschauen/Paper lesen)
 
-- **Code erweitert** V1.1
+- Code erweitert** V1.1
 
 - Repo Datein ordnen
 
@@ -174,13 +174,20 @@
 
 
 
-
-
-
-
 ### 08.06.2022
 
-- ** GO LIVE!**
+- ** TRY GO LIVE!**
+
+
+### 06.07.2022
+- Try Upload Wikidata
+
+
+### 08.07.2022
+-Try Upload Wikdata via Quickstatments
+
+
+
 
 
 

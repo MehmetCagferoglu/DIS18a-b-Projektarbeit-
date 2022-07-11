@@ -200,6 +200,11 @@
 ### 08.07.2022
 -Try Upload Wikdata via Quickstatments
 
+### 11.07.2022
+
+-Try Upload Wikdata über andere Wege 
+- Fragen Gruppen erstellen
+
 
 
 

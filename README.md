@@ -19,7 +19,6 @@
 
 ### Bei Fragen bitte an die oben genannten Email Adressen melden! Vielen Dank!
 
-
 # Bis Februar 2022 wurde das Projekt geplant und die gemeinsamen Termine festgelegt.
 
 
@@ -108,5 +107,34 @@
 
 - Repo Datein ordnen
 
+
+
+### 20.04.2022
+
+- Wikidata Query Service erlenen (Tutorials anschauen/Paper lesen)
+
+- **Code erweitert** V1.1
+
+- Repo Datein ordnen
+
+
+
+### 27.04.2022
+
+- Gelernte Fähigkeiten von Wikidata Query eingesetzt und die gewünschten Ergebnisse exportiert.
+
+- Kontakt zu WIKIDATA über Discord erstellt (Antwort noch keine bekommen)
+
+- **Code erweitert** V1.1
+
+
+
+### 04.05.2022
+
+- Erstellung der Github Repo
+
+- Repo Inhalt besprechen
+
+- Rep Ordner erstellen
 
 

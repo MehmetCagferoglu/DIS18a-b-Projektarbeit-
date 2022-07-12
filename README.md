@@ -22,7 +22,7 @@ Eine automatische Implementierung oder Ergänzung der Bild Daten. (Beispiel: Ers
 - Markus Hardtke (Markus.Hardtke@smail.th-koeln.de)
 - Jannik Loose (Jannik.Loose@smail.th-koeln.de)
 - Mehmet Cagferoglu (Mehmet.cagferoglu@smail.th-koeln.de)
-- David Martini (David.Martini@smail.th-koeln.de)
+- David Martini (David_luke.martini@smail.th-koeln.de)
 
 
 ### Bei Fragen bitte an die oben genannten Email Adressen melden! Vielen Dank!

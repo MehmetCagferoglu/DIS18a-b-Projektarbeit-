@@ -2,7 +2,6 @@
 import re
 from pathlib import Path
 import json
-
 # Mithilfe der Pathlib-Library der aktuellen Workingdirectory finden und zwei Ordnerpfade zurückgehen.
 cwd = Path(__file__).resolve().parent.parent
 
@@ -17,6 +16,11 @@ for x in range(len(Creator)):
         Creator[x] = "Henri Fantin-Latour"
     else:
         Creator[x] = "Otto Scholderer"
+"""
+for index, creator in enumerate(creators):
+    if creator == "Fatin":
+        creators[index] = "Henri Fantin-Latour"
+"""
 # Leere Listen für die Titel in verschiedenen Sprachen erzeugen.
 titel_de = []
 titel_fr = []
@@ -29,6 +33,7 @@ Name = re.findall('name">([^"]*?)<', RawText)
 a = re.compile(r"\(")
 b = re.compile(r"\/")
 
+name.split("/")
 
 for x in range(len(Name)):
     # Wenn eine Klammer und ein Slash enthalten sind, gibt es Titel in drei Sprachen (titel_de, titel_en und titel_fr).
@@ -116,4 +121,4 @@ cwd2 = Path(__file__).resolve().parent.parent
 with open(str(cwd2) + "\data\Data.json", "w") as outfile:
 
     # Umwandlen des Dictionarys in json.
-    json.dump(Dict, outfile)
+    json.dump(Dict, outfile,ensure_ascii = False)

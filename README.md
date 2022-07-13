@@ -162,7 +162,7 @@ Eine automatische Implementierung oder Ergänzung der Bild Daten. (Beispiel: Ers
 
 ### 11.05.2022
 
-- Repo Datein pushen
+- Repo Dateien pushen
 
 - Weekly nachtragen/fortführen
 
@@ -180,7 +180,7 @@ Eine automatische Implementierung oder Ergänzung der Bild Daten. (Beispiel: Ers
 
 ### 25.05.2022
 
-- Daten von Wikidate mit den von uns vorhandenen Daten vergleichen!
+- Daten von WikiData mit den von uns vorhandenen Daten vergleichen!
 
 - **Code erweitert** / Fehler entdeckt und entfernt V1.3
 
@@ -190,7 +190,7 @@ Eine automatische Implementierung oder Ergänzung der Bild Daten. (Beispiel: Ers
 
 ### 01.06.2022
 
-- First  Try upload Wikidata 
+- First Try. Upload auf Wikidata 
 
 - Informiert, wie wir unseren neuen Datensatz auf Wikidata hochladen können.
 

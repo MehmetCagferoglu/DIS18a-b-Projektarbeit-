@@ -29,16 +29,16 @@ Eine automatische Implementierung oder Ergänzung der Bild Daten. (Beispiel: Ers
 
 ## Genutze Quellen und Tools
 
-## Python
-## Regex 101 (https://regex101.com/)
-##-- Github (Upload and safe the file)
-##-- Convert JSON to SCV (https://www.convertcsv.com/json-to-csv.html)
-##-- https://www.wikidata.org/wiki/Wikidata:List_of_properties/art
-##-- https://www.wikidata.org/wiki/Wikidata:Data_Import_Guide
-##-- https://jsonformatter.org/json-viewer (Bearbeitet)
-##-- https://www.wikidata.org/wiki/Wikidata:List_of_properties/art
-##-- https://jsonformatter.org/json-viewer
-##-- Kommunikation Microsoft Teams
+### Python
+### Regex 101 (https://regex101.com/)
+### Github (Upload and safe the file)
+### Convert JSON to SCV (https://www.convertcsv.com/json-to-csv.html)
+### https://www.wikidata.org/wiki/Wikidata:List_of_properties/art
+### https://www.wikidata.org/wiki/Wikidata:Data_Import_Guide
+### https://jsonformatter.org/json-viewer (Bearbeitet)
+### https://www.wikidata.org/wiki/Wikidata:List_of_properties/art
+### https://jsonformatter.org/json-viewer
+### Kommunikation Microsoft Teams
 
 
 # Bis Februar 2022 wurde das Projekt geplant und die gemeinsamen Termine festgelegt.

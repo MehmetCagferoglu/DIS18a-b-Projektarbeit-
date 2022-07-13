@@ -1,6 +1,6 @@
 # DIS18a/b Projektarbeit I - Linked Open Data und Knowledge Graphs (WiSe 2021/2022 und SoSe 2022) Group 1 / Datenkrake
 
-# Projektbeschreibung:
+## Projektbeschreibung:
 
 Aus einem der Praxissemester Projekte erhielten wir einen Datensatz mit Bild Informationen über die Künstler Otto-Scholderer und Henri Fantin Latour. Der uns vorliegende Datensatz erhält 8 relevante Informationen, die zum Teil nicht auf Wiki-Data vorhanden sind. Wir möchten die fehlenden Informationen mit WikiData verknüpfen. Aus dem neu gewonnen Datensatz kann eine Liste mit den Kunstwerken der Künstler gewonnen werden, dadurch können wir ebenfalls die Liste in WikiData erweitern. Somit ist eine Implementierung in gängigen permanenten Datensätzen wie „Virtual International Authority File“ außerhalb von Wiki-Data geplant. Optional ist die automatische Implementierung der Kunstwerk Sammlung in WikiData. Des Weiteren wird eine Dokumentation, in welcher die einzelnen Projektabschnitte genauer erläutert werden.
 Minimales Ziel:
@@ -29,19 +29,19 @@ Eine automatische Implementierung oder Ergänzung der Bild Daten. (Beispiel: Ers
 
 ## Genutze Quellen und Tools
 
-### Python
-### Regex 101 (https://regex101.com/)
-### Github (Upload and safe the file)
-### Convert JSON to SCV (https://www.convertcsv.com/json-to-csv.html)
-### https://www.wikidata.org/wiki/Wikidata:List_of_properties/art
-### https://www.wikidata.org/wiki/Wikidata:Data_Import_Guide
-### https://jsonformatter.org/json-viewer (Bearbeitet)
-### https://www.wikidata.org/wiki/Wikidata:List_of_properties/art
-### https://jsonformatter.org/json-viewer
-### Kommunikation Microsoft Teams
+- Programmiersprache Python
+- Regex 101 (https://regex101.com/)
+- Github (Upload and safe the file)
+- Convert JSON to CSV (https://www.convertcsv.com/json-to-csv.html)
+- WikiData Properties https://www.wikidata.org/wiki/Wikidata:List_of_properties/art
+- WikiData Data Import Guidehttps://www.wikidata.org/wiki/Wikidata:Data_Import_Guide
+- JSON Formatter https://jsonformatter.org/json-viewer (Bearbeitet)
+- WikiData List of Properties https://www.wikidata.org/wiki/Wikidata:List_of_properties/art
+- JSON Formatter https://jsonformatter.org/json-viewer
+- Kommunikation Microsoft Teams
 
 
-# Bis Februar 2022 wurde das Projekt geplant und die gemeinsamen Termine festgelegt.
+## Bis Februar 2022 wurde das Projekt geplant und die gemeinsamen Termine festgelegt.
 
 
 
@@ -85,7 +85,7 @@ Eine automatische Implementierung oder Ergänzung der Bild Daten. (Beispiel: Ers
 
 - Projektdiagramm erstellt
 
-<img src="https://user-images.githubusercontent.com/98899587/166688257-5c53ee4d-9006-4961-915f-489e5b0b57c0.png" width="400" height="300" />
+<img src="https://user-images.githubusercontent.com/98899587/166688257-5c53ee4d-9006-4961-915f-489e5b0b57c0.png" width="700" height="550" />
 
 
 

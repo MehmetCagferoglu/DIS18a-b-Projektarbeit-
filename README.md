@@ -13,8 +13,6 @@ Eine automatische Implementierung oder Ergänzung der Bild Daten. (Beispiel: Ers
 - Used data
 - Code
 - Graph Expansion
-- Weekly
-
 
 
 ## The team members are:

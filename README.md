@@ -25,7 +25,7 @@ Eine automatische Implementierung oder Ergänzung der Bild Daten. (Beispiel: Ers
 - David Martini (David_luke.martini@smail.th-koeln.de)
 
 
-### Bei Fragen bitte an die oben genannten Email Adressen melden! Vielen Dank!
+### Bei Fragen bitte an die oben genannten Email-Adressen melden! Vielen Dank!
 
 ## Genutze Quellen und Tools
 
@@ -33,11 +33,11 @@ Eine automatische Implementierung oder Ergänzung der Bild Daten. (Beispiel: Ers
 - Regex 101 (https://regex101.com/)
 - Github (Upload and safe the file)
 - Convert JSON to CSV (https://www.convertcsv.com/json-to-csv.html)
-- WikiData Properties https://www.wikidata.org/wiki/Wikidata:List_of_properties/art
-- WikiData Data Import Guidehttps://www.wikidata.org/wiki/Wikidata:Data_Import_Guide
-- JSON Formatter https://jsonformatter.org/json-viewer (Bearbeitet)
-- WikiData List of Properties https://www.wikidata.org/wiki/Wikidata:List_of_properties/art
-- JSON Formatter https://jsonformatter.org/json-viewer
+- WikiData Properties (https://www.wikidata.org/wiki/Wikidata:List_of_properties/art)
+- WikiData Data Import Guide (https://www.wikidata.org/wiki/Wikidata:Data_Import_Guide)
+- JSON Formatter (https://jsonformatter.org/json-viewer) (Bearbeitet)
+- WikiData List of Properties (https://www.wikidata.org/wiki/Wikidata:List_of_properties/art)
+- JSON Formatter (https://jsonformatter.org/json-viewer)
 - Kommunikation Microsoft Teams
 
 
@@ -47,7 +47,7 @@ Eine automatische Implementierung oder Ergänzung der Bild Daten. (Beispiel: Ers
 
 ### 15.12.2021
 
-- Gemeinsame Erstellung der Projektbeschreibung.
+- Gemeinsame Erstellung der Projektbeschreibung und Erläuterung des gesamten Projektvorhabens, welche Tools benutzt werden, wie wir es innerhalb der gegebenen Zeitfrist schaffen und allgemeine Ziele.
 
 
 

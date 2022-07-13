@@ -2,7 +2,7 @@
 
 ## Projektbeschreibung:
 
-Aus einem der Praxissemester Projekte erhielten wir einen Datensatz mit Bild Informationen über die Künstler Otto-Scholderer und Henri Fantin Latour. Der uns vorliegende Datensatz erhält 8 relevante Informationen, die zum Teil nicht auf Wiki-Data vorhanden sind. Wir möchten die fehlenden Informationen mit WikiData verknüpfen. Aus dem neu gewonnen Datensatz kann eine Liste mit den Kunstwerken der Künstler gewonnen werden, dadurch können wir ebenfalls die Liste in WikiData erweitern. Somit ist eine Implementierung in gängigen permanenten Datensätzen wie „Virtual International Authority File“ außerhalb von Wiki-Data geplant. Optional ist die automatische Implementierung der Kunstwerk Sammlung in WikiData. Des Weiteren wird eine Dokumentation, in welcher die einzelnen Projektabschnitte genauer erläutert werden.
+Aus einem der Praxissemester Projekte erhielten wir einen Datensatz mit Gemälde Informationen über die Künstler Otto-Scholderer und Henri Fantin Latour. Der uns vorliegende Datensatz erhält 8 relevante Informationen, die zum Teil nicht auf Wiki-Data vorhanden sind. Wir möchten die fehlenden Informationen mit WikiData verknüpfen. Aus dem neu gewonnen Datensatz kann eine Liste mit den Kunstwerken der Künstler gewonnen werden, dadurch können wir ebenfalls die Liste in WikiData erweitern. Somit ist eine Implementierung in gängigen permanenten Datensätzen wie „Virtual International Authority File“ außerhalb von Wiki-Data geplant. Optional ist die automatische Implementierung der Kunstwerk Sammlung in WikiData. Des Weiteren wird eine Dokumentation, in welcher die einzelnen Projektabschnitte genauer erläutert werden.
 Minimales Ziel:
 Die Informationen der Bilder in WikiData Cluster einzufügen oder ergänzen.
 Ideales Ziel:

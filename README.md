@@ -8,11 +8,6 @@ Die Informationen der Bilder in WikiData Cluster einzufügen oder ergänzen.
 Ideales Ziel:
 Eine automatische Implementierung oder Ergänzung der Bild Daten. (Beispiel: Erstellung?) Einstellen der Ergebnisse in andere Perma-Datenbanken (Viaf) / Wiki-Data Listen der Maler ergänzen.
 
-## In this repository you will find 
-
-- Used data
-- Code
-- Graph Expansion
 
 
 ## The team members are:
